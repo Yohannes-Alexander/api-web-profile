@@ -1,0 +1,55 @@
+# ==================================================
+# Golang build & cache
+# ==================================================
+# Binary hasil build
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Output binary dari `go build`
+/bin/
+/out/
+/build/
+/dist/
+
+# Go test cache & coverage
+*.test
+*.out
+coverage.*
+
+# Go module cache
+vendor/
+
+# Go work file (kalau pakai workspace)
+go.work
+go.work.sum
+
+# ==================================================
+# IDE & Editor
+# ==================================================
+# VSCode
+.vscode/
+.history/
+
+# JetBrains (Goland)
+.idea/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# ==================================================
+# Env & Config lokal
+# ==================================================
+.env
+.env.*
+.env.local
+
+# Docker & logs
+docker-compose.override.yml
+logs/
+*.log
